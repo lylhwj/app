@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.loen.bianyueyun" version="2.3.88" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>边乐云</name>
+    <description>
+       bianyue yun
+    </description>
+    <author email="it@bianyue.cn" href="http://cordova.io">
+       bianyue
+    </author>
+    <content src="index.html" />
+    <access launch-external="no" origin="*" subdomains="true" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="CodePushDeploymentKey" value="S5EMB5DbTmRapzPvg5uBJTG6lSBr4ksvOXqog" />
+        <preference name="CodePushServerUrl" value="https://code-push.bianyue.cn/" />
+        <icon density="ldpi" src="res/icon/android/mipmap-ldpi/ic_launcher.png" />
+        <icon density="mdpi" src="res/icon/android/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="res/icon/android/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="res/icon/android/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="res/icon/android/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="res/icon/android/mipmap-xxxhdpi/ic_launcher.png" />
+        <splash density="land-hdpi" src="res/screen/android/drawable-land-hdpi/screen.png" />
+        <splash density="land-ldpi" src="res/screen/android/drawable-land-ldpi/screen.png" />
+        <splash density="land-mdpi" src="res/screen/android/drawable-land-mdpi/screen.png" />
+        <splash density="land-xhdpi" src="res/screen/android/drawable-land-xhdpi/screen.png" />
+        <splash density="port-hdpi" src="res/screen/android/drawable-port-hdpi/screen.png" />
+        <splash density="port-ldpi" src="res/screen/android/drawable-port-ldpi/screen.png" />
+        <splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi/screen.png" />
+        <splash density="port-xhdpi" src="res/screen/android/drawable-port-xhdpi/screen.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="CodePushDeploymentKey" value="rW05nKfc8YndXTPp2hVE6qtzcRL64ksvOXqog" />
+        <preference name="CodePushServerUrl" value="https://code-push.bianyue.cn/" />
+        <preference name="DisallowOverscroll" value="true" />
+        <preference name="orientation" value="portrait" />
+        <preference name="StatusBarOverlaysWebView" value="true" />
+        <preference name="iosPersistentFileLocation" value="Library" />
+        <preference name="UseSwiftLanguageVersion" value="3.2" />
+        <preference name="SplashScreenDelay" value="1000" />
+        <icon height="16" src="res/icon/ios/Icon-16.png" width="16" />
+        <icon height="20" src="res/icon/ios/Icon-20.png" width="20" />
+        <icon height="29" src="res/icon/ios/Icon-29.png" width="29" />
+        <icon height="32" src="res/icon/ios/Icon-32.png" width="32" />
+        <icon height="40" src="res/icon/ios/Icon-40.png" width="40" />
+        <icon height="48" src="res/icon/ios/Icon-48.png" width="48" />
+        <icon height="50" src="res/icon/ios/Icon-50.png" width="50" />
+        <icon height="55" src="res/icon/ios/Icon-55.png" width="55" />
+        <icon height="57" src="res/icon/ios/Icon-57.png" width="57" />
+        <icon height="58" src="res/icon/ios/Icon-58.png" width="58" />
+        <icon height="60" src="res/icon/ios/Icon-60.png" width="60" />
+        <icon height="64" src="res/icon/ios/Icon-64.png" width="64" />
+        <icon height="72" src="res/icon/ios/Icon-72.png" width="72" />
+        <icon height="76" src="res/icon/ios/Icon-76.png" width="76" />
+        <icon height="80" src="res/icon/ios/Icon-80.png" width="80" />
+        <icon height="87" src="res/icon/ios/Icon-87.png" width="87" />
+        <icon height="88" src="res/icon/ios/Icon-88.png" width="88" />
+        <icon height="100" src="res/icon/ios/Icon-100.png" width="100" />
+        <icon height="114" src="res/icon/ios/Icon-114.png" width="114" />
+        <icon height="120" src="res/icon/ios/Icon-120.png" width="120" />
+        <icon height="128" src="res/icon/ios/Icon-128.png" width="128" />
+        <icon height="144" src="res/icon/ios/Icon-144.png" width="144" />
+        <icon height="152" src="res/icon/ios/Icon-152.png" width="152" />
+        <icon height="167" src="res/icon/ios/Icon-167.png" width="167" />
+        <icon height="172" src="res/icon/ios/Icon-172.png" width="172" />
+        <icon height="180" src="res/icon/ios/Icon-180.png" width="180" />
+        <icon height="196" src="res/icon/ios/Icon-196.png" width="196" />
+        <icon height="256" src="res/icon/ios/Icon-256.png" width="256" />
+        <icon height="512" src="res/icon/ios/Icon-512.png" width="512" />
+        <icon height="1024" src="res/icon/ios/Icon-1024.png" width="1024" />
+        <splash height="480" src="res/screen/ios/Default~iphone.png" width="320" />
+        <splash height="960" src="res/screen/ios/Default@2x~iphone.png" width="640" />
+        <splash height="1024" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="2048" src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="768" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="1536" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="1136" src="res/screen/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" src="res/screen/ios/Default-667h.png" width="750" />
+        <splash height="2208" src="res/screen/ios/Default-736h.png" width="1242" />
+        <splash height="1242" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
+        <splash height="2436" src="res/screen/ios/Default-2436h.png" width="1125" />
+        <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+            <string>需要访问您的相册，以便您正常使用图片保存、图片上传等服务。</string>
+        </edit-config>
+        <edit-config file="*-Info.plist" mode="merge" target="NSContactsUsageDescription">
+            <string>如果不允许，您将无法使用通讯录同步和备份功能。通讯录传输和存储过程均严格加密，绝不作其它用途。</string>
+        </edit-config>
+    </platform>
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <plugin name="cordova-plugin-local-notification" spec="^0.9.0-beta.2" />
+    <plugin name="cordova-plugin-battery-status" spec="^2.0.2" />
+    <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
+        <variable name="URL_SCHEME" value="bianyueyun" />
+        <variable name="ANDROID_SCHEME" value=" " />
+        <variable name="ANDROID_HOST" value=" " />
+        <variable name="ANDROID_PATHPREFIX" value="/" />
+    </plugin>
+    <plugin name="cordova-plugin-screen-orientation" spec="^3.0.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-qrscanner" spec="^2.6.0" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+    <plugin name="cordova-plugin-camera" spec="^4.0.3">
+        <variable name="CAMERA_USAGE_DESCRIPTION" value="使用相机拍摄" />
+        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="在相册中选取" />
+    </plugin>
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova-sms-plugin" spec="^1.0.0" />
+    <plugin name="cordova-plugin-fingerprint-aio" spec="1.6.0">
+        <variable name="FACEID_USAGE_DESCRIPTION" value=" " />
+    </plugin>
+    <plugin name="cordova-plugin-contacts" spec="^3.0.1" />
+    <plugin name="cordova-plugin-streaming-media" spec="git+https://github.com/nchutchind/cordova-plugin-streaming-media.git" />
+    <plugin name="cordova-clipboard" spec="^1.2.1" />
+    <plugin name="cordova-plugin-datepicker" spec="^0.9.3" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
+    <plugin name="cordova-plugin-zip" spec="^3.1.0" />
+    <plugin name="cordova-plugin-advanced-http" spec="^2.0.4" />
+    <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
+    <plugin name="cordova-plugin-code-push" spec="^1.11.17" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-wechat" spec="^2.6.0">
+        <variable name="WECHATAPPID" value="wxef45fef40d2503d4" />
+    </plugin>
+    <plugin name="cordova-alipay-chenyu" spec="^2.0.4">
+        <variable name="APP_ID" value="2018021302191866" />
+    </plugin>
+    <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
+    <plugin name="cordova-plugin-qqsdk" spec="^0.9.7">
+        <variable name="QQ_APP_ID" value="101456001" />
+    </plugin>
+    <engine name="android" spec="^7.1.4" />
+    <engine name="ios" spec="^4.5.5" />
+</widget>

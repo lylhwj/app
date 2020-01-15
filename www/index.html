@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><title></title><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=0;viewport-fit=cover"><link rel=icon href=./static/img/favicon.ico type=image/x-icon><script type=text/javascript>//北京时间 2019-03-04 17:00   1551693600000
+        var startTime = new Date(1551690000000);
+      //北京时间 2019-03-15 18:00   1552212000000
+      var endTime = new Date(15526440000000)
+      var curDate = new Date();
+      if (false) {
+      // if (curDate >= startTime && curDate <= endTime) { 
+        //同步XHR
+        var request = new XMLHttpRequest();
+        request.open('GET', 'http://api2.bianyue.cn/web/reviewApp/index?version=2.3.0', false);
+        request.send(null);
+        if (request.status === 200) {
+          obj = JSON.parse(request.responseText);
+          if (obj.data.flag) {
+            window.location.href = "http://api.bianyue.cn/iphone/init.php?vname=review";
+          }
+        }
+      } else {
+        //正常
+      }</script><script type=text/javascript>document.addEventListener("deviceready", function () {
+       codePush.sync();
+    }, true);</script><script src=./static/js/flexible.js></script><script src=./static/js/jquery.min.js></script><script src=./static/js/layer.min.js></script><script src=./static/js/fastclick.js></script><script src=./cordova.js></script><link href=static/css/app.e73d626d10bc803e9214b1532ad5c7f2.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=static/js/manifest.37a2ecbb1d1b7e6c9ada.js></script><script type=text/javascript src=static/js/vendor.e530596d1c9a55893590.js></script><script type=text/javascript src=static/js/app.5a748e6837fc520e5166.js></script></body></html>

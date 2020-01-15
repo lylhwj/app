@@ -1,0 +1,47 @@
+{
+  "_from": "cordova-alipay-chenyu",
+  "_id": "cordova-alipay-chenyu@2.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-RaKhVXmuoHmymju6jqZua4Xbtdc=",
+  "_location": "/cordova-alipay-chenyu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-alipay-chenyu",
+    "name": "cordova-alipay-chenyu",
+    "escapedName": "cordova-alipay-chenyu",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/cordova-alipay-chenyu/download/cordova-alipay-chenyu-2.0.4.tgz",
+  "_shasum": "45a2a15579aea079b29a3bba8ea66e6b85dbb5d7",
+  "_spec": "cordova-alipay-chenyu",
+  "_where": "/Users/loen/Desktop/app",
+  "author": {
+    "name": "chenyu"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-alipay-chenyu",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "AlipaySDK,2017.11.28",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "cordova-alipay-chenyu",
+  "version": "2.0.4"
+}

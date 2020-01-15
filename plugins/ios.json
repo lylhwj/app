@@ -1,0 +1,117 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-alipay-chenyu": {
+      "APP_ID": "2018021302191866",
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-advanced-http": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-app-version": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-code-push": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "bianyueyun",
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-datepicker": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-fingerprint-aio": {
+      "FACEID_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-qqsdk": {
+      "QQ_APP_ID": "101456001",
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-qrscanner": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-streaming-media": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-wechat": {
+      "WECHATAPPID": "wxef45fef40d2503d4",
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-sms-plugin": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    }
+  },
+  "dependent_plugins": {
+    "code-push": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.loen.bianyueyun"
+    }
+  }
+}
